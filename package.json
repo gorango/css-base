@@ -5,9 +5,10 @@
   "author": "gorango",
   "license": "MIT",
   "scripts": {
-    "dev": "mkdir -p css && postcss src/index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -u postcss-color-function -u postcss-remove-root -u autoprefixer -o css/base.css",
+    "dev": "mkdir -p css && postcss -w src/index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -u postcss-color-function -u postcss-remove-root -u autoprefixer -o css/base.css",
+    "build:transpile": "mkdir -p css && postcss src/index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -u postcss-color-function -u postcss-remove-root -u autoprefixer -o css/base.css",
     "minify": "postcss css/base.css -u cssnano -o css/base.min.css",
-    "build": "npm run dev && npm run minify"
+    "build": "npm run build:transpile && npm run minify"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.5",

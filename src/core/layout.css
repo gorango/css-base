@@ -14,6 +14,8 @@
 .ofys { overflow-y: scroll }
 .ofxa { overflow-x: auto }
 .ofya { overflow-y: auto }
+.offcw { min-width: min-content }
+.offch { min-height: min-content }
 
 .clearfix:before,
 .clearfix:after {
@@ -34,6 +36,7 @@
 .mw2 { max-width: var(--width-2) }
 .mw3 { max-width: var(--width-3) }
 .mw4 { max-width: var(--width-4) }
+.mw5 { max-width: var(--width-5) }
 
 .border-box { box-sizing: border-box }
 
@@ -42,4 +45,5 @@
   --width-2: 32rem;
   --width-3: 48rem;
   --width-4: 64rem;
+  --width-5: 72rem;
 }
