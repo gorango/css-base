@@ -1,10 +1,10 @@
 
-.btn-small {
-  padding: var(--button-small-padding-y) var(--button-small-padding-x);
+.btn-sm {
+  padding: var(--button-sm-padding-y) var(--button-sm-padding-x);
 }
 
-.btn-big {
-  padding: var(--button-big-padding-y) var(--button-big-padding-x);
+.btn-lg {
+  padding: var(--button-lg-padding-y) var(--button-lg-padding-x);
 }
 
 .btn-narrow {
@@ -13,9 +13,9 @@
 }
 
 :root {
-  --button-small-padding-y: .25rem;
-  --button-small-padding-x: .5rem;
-  --button-big-padding-y: 1rem;
-  --button-big-padding-x: 1.25rem;
+  --button-sm-padding-y: .25rem;
+  --button-sm-padding-x: .5rem;
+  --button-lg-padding-y: 1rem;
+  --button-lg-padding-x: 1.25rem;
   --button-narrow-padding-x: .5rem;
 }

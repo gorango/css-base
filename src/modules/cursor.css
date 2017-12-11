@@ -1,0 +1,16 @@
+
+.cursor-default { cursor: default }
+
+.cursor-pointer { cursor: pointer }
+
+.cursor-not-allowed { cursor: not-allowed }
+
+.cursor-progress { cursor: progress }
+
+.cursor-text { cursor: text }
+
+.cursor-help { cursor: help }
+
+.cursor-grab { cursor: grab }
+
+.cursor-grabbing { cursor: grabbing }

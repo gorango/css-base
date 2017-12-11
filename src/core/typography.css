@@ -2,6 +2,7 @@
 .font-family-inherit { font-family: inherit }
 .font-size-inherit { font-size: inherit }
 .text-decoration-none { text-decoration: none }
+.text-decoration-none:hover { text-decoration: none }
 
 .fs14 { font-size: 14px }
 .fs16 { font-size: 16px }
@@ -11,6 +12,7 @@
 .fs48 { font-size: 48px }
 .fs64 { font-size: 64px }
 
+.thin    { font-weight: var(--thin-font-weight) }
 .bold    { font-weight: var(--bold-font-weight, bold) }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
@@ -50,6 +52,7 @@
   --line-height-3: 1.25;
   --line-height-4: 1.5;
   --letter-spacing: 1;
-  --caps-letter-spacing: .2em;
+  --caps-letter-spacing: .1em;
   --bold-font-weight: bold;
+  --thin-font-weight: 300;
 }

@@ -34,10 +34,9 @@
 
 :root {
   --border-width: 1px;
-  --bold-font-weight: bold;
   --button-font-family: inherit;
   --button-font-size: inherit;
-  --button-font-weight: var(--bold-font-weight);
+  --button-font-weight: 400;
   --button-line-height: 1.125rem;
   --button-padding-y: .5rem;
   --button-padding-x: 1rem;
